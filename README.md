@@ -1,7 +1,4 @@
-# Compromise
-[![Build Status](https://api.travis-ci.org/jnewman/compromise.png?branch=master)](https://travis-ci.org/jnewman/compromise)
-
-[![Browser Support](https://ci.testling.com/jnewman/compromise.png)](https://ci.testling.com/jnewman/compromise)
+# Compromise [![Build Status](https://api.travis-ci.org/jnewman/compromise.png?branch=master)](https://travis-ci.org/jnewman/compromise) [![Browser Support](https://ci.testling.com/jnewman/compromise.png)](https://ci.testling.com/jnewman/compromise)
 
 Allows composition of functions that require a callback. Assumes the callbacks are node style e.g.,:
 
