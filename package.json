@@ -1,6 +1,6 @@
 {
     "name": "compromise",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Compose (function(): Promise)es and auto lift non-promise returners to allow queued IO w/o all the boilerplate.",
     "author": "Joshua Newman <joshua.l.newman@gmail.com>",
     "keywords": [
