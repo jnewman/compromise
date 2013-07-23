@@ -40,6 +40,10 @@
             "test/compromise-node.js"
         ]
     },
+    "dependencies": {
+        "q": "~0.9",
+        "underscore": "~1.5"
+    },
     "devDependencies": {
         "chai": "~1.7",
         "grunt": ">=0.4",
