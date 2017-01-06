@@ -1,5 +1,7 @@
 # Compromise [![Build Status](https://api.travis-ci.org/jnewman/compromise.png?branch=master)](https://travis-ci.org/jnewman/compromise) [![Browser Support](https://ci.testling.com/jnewman/compromise.png)](https://ci.testling.com/jnewman/compromise)
 
+# I've given up my slot on npm to the more popular [nlp_compromise](https://github.com/nlp-compromise/nlp_compromise). If you need this for your project the old versions will remain at `<=0.1.1`.
+
 Allows composition of functions that require a callback. Assumes the callbacks are node style e.g.,:
 
     function (err, data) {
