@@ -62,10 +62,5 @@
         "requirejs": "~2.1",
         "underscore": "~1.5"
     },
-    "licenses": [
-        {
-            "type": "BSD3",
-            "url": "https://github.com/jnewman/compromise/blob/master/LICENSE.txt"
-        }
-    ]
+    "license": "BSD3"
 }
