@@ -36,9 +36,12 @@
         mocha.ui('bdd');
         mocha.reporter('html');
 
-        var runner = typeof global !== 'undefined' && global.mochaPhantomJS ?
-            global.mochaPhantomJS : mocha;
-
-        require(TESTS, _.bind(runner.run, runner));
+        require(TESTS, function() {
+            if (typeof global !== 'undefined' && global.initMochaPhantomJS) {
+                global.initMochaPhantomJS();
+            } else {
+                mocha.run();
+            }
+        });
     });
-})(this);
+})(this || window);
