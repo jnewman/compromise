@@ -27,40 +27,56 @@
     },
     "testling": {
         "browsers": {
-            "ie": [8, 9],
-            "ipad": [6],
-            "iphone": [6],
-            "firefox": [19, "nightly"],
-            "chrome": [25, "canary"],
-            "safari": [6],
-            "opera": [12, "next"]
+            "ie": [
+                8,
+                9
+            ],
+            "ipad": [
+                6
+            ],
+            "iphone": [
+                6
+            ],
+            "firefox": [
+                19,
+                "nightly"
+            ],
+            "chrome": [
+                25,
+                "canary"
+            ],
+            "safari": [
+                6
+            ],
+            "opera": [
+                12,
+                "next"
+            ]
         },
-        "harness" : "mocha",
+        "harness": "mocha",
         "files": [
             "test/compromise-node.js"
         ]
     },
     "dependencies": {
-        "q": "~1.4.1",
+        "q": "~1.5.0",
         "underscore": "~1.8.3"
     },
     "devDependencies": {
-        "chai": "~3.5.0",
-        "grunt": ">=0.4",
-        "grunt-benchmark": "~1.0.0",
-        "grunt-cli": "~1.2.0",
-        "grunt-contrib-concat": "~1.0.1",
-        "grunt-contrib-connect": "~1.0.2",
-        "grunt-contrib-jshint": "~1.1.0",
-        "grunt-contrib-uglify": "~2.0.0",
-        "grunt-mocha-phantomjs": "~4.0.0",
-        "grunt-mocha-test": "~0.13.2",
-        "jshint": "~2.9.4",
-        "lodash": "~4.17.4",
-        "mocha": "~3.2.0",
-        "q": "~1.4.1",
-        "requirejs": "~2.3.2",
-        "underscore": "~1.8.3"
+        "chai": "3.5.0",
+        "grunt": "1.0.1",
+        "grunt-benchmark": "1.0.0",
+        "grunt-cli": "1.2.0",
+        "grunt-contrib-concat": "1.0.1",
+        "grunt-contrib-connect": "1.0.2",
+        "grunt-contrib-jshint": "1.1.0",
+        "grunt-contrib-uglify": "2.2.1",
+        "grunt-mocha-phantomjs": "4.0.0",
+        "grunt-mocha-test": "0.13.2",
+        "jshint": "2.9.4",
+        "lodash": "4.17.4",
+        "mocha": "3.2.0",
+        "requirejs": "2.3.3"
     },
     "licenses": [
         {
